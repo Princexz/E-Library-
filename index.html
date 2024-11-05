@@ -1,0 +1,25 @@
+
+<!DOCTYPE html>
+<html lang="en">
+   
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Login</title>
+    <link rel="stylesheet" href="./login.css">
+</head>
+<body>
+
+    <div class="login-container">
+       
+        <h2>Student Login</h2>
+        <form id="loginForm" onsubmit="myFunction(event)" >
+            <label for="regLabel">Registration Number:</label>
+            <input type="text" id="regnumberId" name="regLabel" placeholder="regNumber" required>
+            <button type="submit">Login</button>
+            <p id="error-message" class="error"></p>
+        </form>
+    </div>
+        <script src="./script.js"></script>
+</body>
+</html>
