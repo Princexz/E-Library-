@@ -1,4 +1,6 @@
-
+body{
+    font-family: FuturaLTPro-Book;
+}
 header {
     background-color: rgb(86, 66, 158);
     color: white;
